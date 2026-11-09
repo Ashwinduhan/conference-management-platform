@@ -1,12 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Register | conference management platform</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-<html>
-<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Register | ConfPro</title>
   <link rel="stylesheet" href="style.css">
 </head>
@@ -37,7 +33,7 @@
       <input type="email" id="email" placeholder="you@example.com" required>
 
       <label for="phone">Phone Number</label>
-      <input type="tel" id="phone" placeholder="10-digit number" required>
+      <input type="tel" id="phone" placeholder="10-digit number" pattern="[0-9]{10}" required>
 
       <label for="type">Registration Type</label>
       <select id="type">
@@ -50,8 +46,10 @@
       <textarea id="msg" rows="4"></textarea>
 
       <button type="submit" class="btn">Submit Registration</button>
-        <p id="successMsg" class="success-msg">
-        </p>
+
+      <p id="successMsg" class="success-msg">
+      </p>
+
     </form>
   </div>
 
@@ -59,7 +57,3 @@
     <p>Conference Management Platform</p>
   </footer>
 
-</body>
-</html>
-</body>
-</html>
