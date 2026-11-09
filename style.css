@@ -43,7 +43,7 @@ a {
   border-radius: 8px;
   margin-top: 15px;
 }
-features {
+.features {
   display: flex;
   gap: 20px;
   padding: 50px 30px;
@@ -135,3 +135,10 @@ td {
 tr:hover td {
   background: #f1f5f9;
 }
+.success-msg {
+  display: none;         
+  color: green;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
